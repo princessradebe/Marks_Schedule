@@ -1,8 +1,5 @@
 # Get stu_num from user
-try:
-    stu_num = int(input('Enter student number: '))
-except ValueError:
-    print('Invalid student number entered')
+stu_num = int(input('Enter student number: '))
 
 # Get test scores from the user
 print('Enter your test scores')
